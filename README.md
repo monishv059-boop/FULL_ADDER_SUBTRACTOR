@@ -1,4 +1,4 @@
-# FULL_ADDER_SUBTRACTOR
+<img width="1920" height="1080" alt="exe4(1)" src="https://github.com/user-attachments/assets/781de4f2-1b71-4859-982a-d913581e9a2e" /># FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
@@ -52,8 +52,8 @@ Write the detailed procedure here
 **Output Timing Waveform**
 
 **Result:**
-
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
-
-
+<img width="1920" height="1080" alt="exe4(1)" src="https://github.com/user-attachments/assets/7e3d9a0b-8004-46fe-a2a6-d192208e2912" />
+<img width="1920" height="1080" alt="exe4(2)" src="https://github.com/user-attachments/assets/17e67c78-ba78-4fe1-ad8c-0253990e2f4a" />
+<img width="1920" height="1080" alt="exe4(3)" src="https://github.com/user-attachments/assets/7c56988e-05a7-430f-8f74-e269d9556bc5" />
