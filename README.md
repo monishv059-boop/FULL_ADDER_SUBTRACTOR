@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="exe4(1)" src="https://github.com/user-attachments/assets/781de4f2-1b71-4859-982a-d913581e9a2e" /># FULL_ADDER_SUBTRACTOR
-
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 **AIM:**
@@ -43,16 +41,27 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+~~~
+module Exp4(a,b,cin,sum,carry,diff,borrow);
+input a,b,cin;
+output sum,carry,diff,borrow;
+wire adash;
+not (adash,a);
+assign sum = a^b^cin;
+assign carry = (a&b)|(b&cin)|(a&cin);
+assign diff = a^b^cin;
+assign borrow = (adash&b)|(b&cin)|(adash&cin);
+endmodule
+~~~
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL Schematic**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54f859fc-f5eb-4a7d-a0f3-ce3585c2d8cf" />
 
 **Output Timing Waveform**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f96baa5-b576-47ed-bfd5-dab50c92d1e7" />
 
 **Result:**
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-<img width="1920" height="1080" alt="exe3(1)" src="https://github.com/user-attachments/assets/9385ae5f-c88b-4b6d-b5f9-69ecc88f4e16" />
-<img width="1920" height="1080" alt="exe3(2)" src="https://github.com/user-attachments/assets/c3602c02-ecc4-47d3-b6a4-304922a001d9" />
-<img width="1920" height="1080" alt="exe3(3)" src="https://github.com/user-attachments/assets/6088ed23-4b15-43bc-a6eb-48c8534e6bcd" />
